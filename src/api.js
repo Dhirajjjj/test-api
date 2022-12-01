@@ -65,6 +65,10 @@ router.get("/callback", (req, res) => {
   //console.log(req);
 });
 
+router.get("/test", (req, res) => {
+  res.send("just to test");
+});
+
 // router.listen(port, () => {
 //     console.log(`Listening on port ${port}`);
 // });
