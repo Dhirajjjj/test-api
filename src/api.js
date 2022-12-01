@@ -8,6 +8,8 @@ const app = express();
 const router = express.Router();
 
 const port = 1122;
+//f61cf69fb26f606a63e4
+//9B9DC682
 
 const params = {
   response_type : "token",
@@ -22,7 +24,7 @@ const get_request_args = querystring.stringify(params);
 
 const options = {
     "method": "GET",
-    "hostname": "betaapi.digilocker.gov.in",
+    "hostname": "digilocker.meripehchaan.gov.in",
     "port": null,
     "path": "/public/oauth2/1/authorize"  + get_request_args,
     "headers": {
