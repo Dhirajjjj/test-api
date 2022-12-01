@@ -64,7 +64,7 @@ router.get("/", (req, res) => {
 
 router.get("/callback", (req, res) => {
   res.send("callback");
-  //console.log(req);
+  console.log(req);
 });
 
 router.get("/test", (req, res) => {
