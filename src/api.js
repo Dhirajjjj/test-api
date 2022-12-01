@@ -11,9 +11,9 @@ const port = 1122;
 
 const params = {
   response_type : "token",
-  client_id : "2616568C",
-  redirect_uri : "",
-  state : ""
+  client_id : "9B9DC682",
+  redirect_uri : "https://6388af19ff557a00691bd0a6--phenomenal-frangipane-11cc8f.netlify.app/.netlify/functions/api/callback",
+  state : "test data"
 };
 
 //https://digilocker.meripehchaan.gov.in/public/oauth2/1/authorize
@@ -54,7 +54,7 @@ const getData = () => {
   });
 };
 
-//getData();
+getData();
 
 router.get("/", (req, res) => {
     res.send("test");
